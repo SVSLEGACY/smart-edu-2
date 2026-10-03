@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RE:LEARN - Interactive Learning Platform</title>
+    <meta name="description" content="An AI-powered adaptive learning platform for Python programming featuring misconception diagnostics, targeted interventions, Monaco code editing, and difficulty levels." />
+    <meta property="og:title" content="RE:LEARN - Interactive Learning Platform" />
+    <meta property="og:description" content="An AI-powered adaptive learning platform for Python programming featuring misconception diagnostics, targeted interventions, Monaco code editing, and difficulty levels." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('learnify-theme');
+          if (t === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F8F9FA] dark:bg-[#121214] text-zinc-900 dark:text-zinc-100 antialiased selection:bg-orange-500 selection:text-white transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,8 @@
+{
+  "name": "Remix Smart-edu",
+  "description": "Imported from GitHub: SVSLEGACY/Smart-edu",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
